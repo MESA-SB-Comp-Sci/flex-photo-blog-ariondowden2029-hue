@@ -45,18 +45,17 @@
   display: flex;
   padding: 20px 24px;
   gap: 4px;
-/*  */
-/*  */
+  flex-direction: column;
 }
 
 .header-title {
-  font-size: 22px;
+  font-size: 1rem;
   font-weight: 500;
 }
 
 .header-tagline {
   color: #9FE1CB;
-  font-size: 13px;
+  font-size: 1rem;
 }
 
 
@@ -72,17 +71,16 @@
 
 .nav {
   background-color: #0F6E56;
-  display: flex;
-  flex-direction: column; 
+  display: flex; 
   padding: 10px 24px;
   gap: 20px;
-
-  /* add here */
+  justify-content: space-around;
+  
 }
 
 .nav-link {
   text-decoration: none;
-  font-size: 14px;
+  font-size: 1rem;
   color: white;
 }
 
@@ -102,18 +100,18 @@
   display: flex;
   gap: 10px;
   color: white;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center; 
 }
 
 .hero-title {
-  font-size: 18px;
+  font-size: 1rem;
   font-weight: 500;
 }
 
 .hero-text {
   color: #AFA9EC;
-  font-size: 13px;
+  font-size: 1rem;
   max-width: 400px;
   line-height: 1.6;
 }
@@ -131,8 +129,8 @@
 ---------------------------------------------------------------- */
 
 .main {
-  /* add here */
-  flex-direction: column;
+  display: flex;
+  flex: 1;
   gap: 16px;
   padding: 20px;
   background-color: #f1efe8;
@@ -155,13 +153,13 @@
   flex-shrink: 0;
   border: 0.5px solid #D3D1C7;
   display: flex;
-  flex-direction: row;  
+  flex-direction: column;  
   gap: 10px;
 }
 
 .sidebar-heading {
   color: #1a1a2e;
-  font-size: 13px;
+  font-size: 1rem;
   font-weight: 500;
   border-bottom: 0.5px solid #D3D1C7;
   padding-bottom: 8px;
@@ -175,13 +173,13 @@
 
 .detail-label {
   color: #1a1a2e;
-  font-size: 11px;
+  font-size: 1rem;
   font-weight: 500;
 }
 
 .detail-value {
   color: #5F5E5A;
-  font-size: 11px;
+  font-size: 1rem;
 }
 
 .sidebar-tag {
@@ -189,7 +187,7 @@
   color: #534AB7;
   border-radius: 4px;
   padding: 5px 10px;
-  font-size: 12px;
+  font-size: 1rem;
   text-align: center;
 }
 
@@ -205,8 +203,8 @@
 .images {
   display: flex;
   flex: 1;
-  flex-direction: row; 
-  gap: 12px;
+  flex-direction: column; 
+  gap: 16px;
 }
 
 
@@ -223,10 +221,10 @@
   background-color: #D3D1C7;
   border-radius: 6px;
   padding: 40px 20px;
-  font-size: 13px;
+  font-size: 1rem;
   color: #5F5E5A;
   text-align: center;
-  flex: 0;  
+  flex: 1;  
 }
 
 
@@ -243,18 +241,18 @@
   background-color: #1a1a2e;
   padding: 12px 24px;
   display: flex;
-  justify-content: center;   
+  justify-content: start;   
   gap: 20px;
 }
 
 .footer-text {
   color: #9FE1CB;
-  font-size: 12px;
+  font-size: 1rem;
 }
 
 .footer-link {
   color: #AFA9EC;
-  font-size: 12px;
+  font-size: 1rem;
 }
 
 
